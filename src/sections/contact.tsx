@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import  { useState, useEffect } from 'react';
 
 const Contact = () => {
   const contactInfo = {
@@ -108,8 +108,6 @@ const Contact = () => {
           Connect with me to discuss projects, cybersecurity, or collaboration opportunities.
         </p>
       </div>
-
-      {/* Tailwind Animation Keyframes */}
       <style>{`
         @keyframes scanline {
           0% { transform: translateY(-100%); }

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 
 const Main = () => {
   const titles = ['Full Stack Developer', 'Pentester', 'Ethical Hacker'];
